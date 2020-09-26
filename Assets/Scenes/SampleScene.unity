@@ -1533,6 +1533,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b5fdb8f7ca79cdc43854edcc3f797643, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  tilter: {fileID: 803084666}
+  checker: {fileID: 803084665}
+  sphere: {fileID: 803084664}
   button: {fileID: 132511329}
 --- !u!1 &375178784
 GameObject:
@@ -2274,6 +2277,36 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 803084662}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &803084664 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5674511031389905589, guid: 02aef64b6a979b541b867fc65f258e57,
+    type: 3}
+  m_PrefabInstance: {fileID: 803084662}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &803084665 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5073647698112869255, guid: 02aef64b6a979b541b867fc65f258e57,
+    type: 3}
+  m_PrefabInstance: {fileID: 803084662}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 803084664}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe6ce6c26f0c9154da3a4435df42dbbe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &803084666 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8642778212885049875, guid: 02aef64b6a979b541b867fc65f258e57,
+    type: 3}
+  m_PrefabInstance: {fileID: 803084662}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3f65f3b3c218124686aba091b8a0502, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &818770582
 GameObject:
   m_ObjectHideFlags: 0
