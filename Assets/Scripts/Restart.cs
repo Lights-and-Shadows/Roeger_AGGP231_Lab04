@@ -21,6 +21,6 @@ public class Restart : MonoBehaviour
     {
         tilter.currentRot = Vector3.zero;
         checker.gameText.text = "";
-        sphere.transform.position = new Vector3(-8.6f, 0.58f, -8.53f);
+        sphere.transform.localPosition = new Vector3(-8.6f, 0.58f, -8.53f);
     }
 }
