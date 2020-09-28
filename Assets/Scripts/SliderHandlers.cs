@@ -13,7 +13,7 @@ public class SliderHandlers : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        content.rotation = Quaternion.Euler(0f, rotationSlider.value, 0f);
+        content.localRotation = Quaternion.Euler(0f, rotationSlider.value, 0f);
         content.localScale = new Vector3(scaleSlider.value, scaleSlider.value, scaleSlider.value);
     }
 }
